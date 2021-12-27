@@ -51,7 +51,7 @@ const SingleTodo: React.FC<props> = ({ todo, todos, setTodos, key }) => {
       ) : (
         <span className="todos__single--text">{todo.todo}</span>
       )}
-      <div> 
+      <div>    
         <span
           className="icon"
           onClick={() => {
